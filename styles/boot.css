@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+}
+
+:root{
+    font-size: 60.5%;
+
+    --primary-color: #7BA1F7;
+    --secondary-color: #CFDDFF;
+    --tertiary: #696AA9;
+    --quartet: #02809D;
+
+    --text: #555;
+}
+
+body{
+    font-size: 1.6rem;
+
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img{max-width: 100%;}
+
+.container{
+    display: inline-block;
+    width: 100%;
+}
+
+.content{
+    display: grid;
+    margin: 0 auto;
+}
+
+li{list-style: none;}
+
